@@ -11,3 +11,4 @@ wget http://central.maven.org/maven2/kg/apc/jmeter-plugins-manager/1.1/jmeter-pl
 wget http://central.maven.org/maven2/kg/apc/cmdrunner/2.2/cmdrunner-2.2.jar -P lib
 java -cp ./lib/ext/jmeter-plugins-manager-1.1.jar org.jmeterplugins.repository.PluginManagerCMDInstaller
 ./bin/PluginsManagerCMD.sh install jpgc-graphs-basic
+./bin/PluginsManagerCMD.sh install jpgc-tst
